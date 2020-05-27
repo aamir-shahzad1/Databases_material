@@ -1,0 +1,25 @@
+// let you login to postgress
+sudo -u postgres psql
+
+
+// it will list all the relation
+\d
+
+// it will list all the databases
+\l
+
+// it will switch the database 
+\c newdb
+
+//it will list all the user
+\du
+
+// this will change user passworld
+ALTER USER postgres WITH PASSWORD 'admin';
+
+
+// this will quite postgres user
+\q
+
+// this will create new user
+sudo -u postgres createuser <username>
