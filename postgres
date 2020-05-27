@@ -23,3 +23,7 @@ ALTER USER postgres WITH PASSWORD 'admin';
 
 // this will create new user
 sudo -u postgres createuser <username>
+
+
+//stop postgres server
+sudo systemctl stop postgresql
